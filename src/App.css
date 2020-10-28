@@ -1,3 +1,71 @@
+html {
+  background-color: thistle;
+  background-image: url(./assets/branches.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.body {
+  text-align: center;
+}
+
+.header {
+  margin-top: -35px;
+  height: 130px;
+  background-color: #404040;
+}
+
+h1 {
+  padding: 20px;
+  font-family: cursive;
+  font-size: 35pt;
+  color: white;
+  text-shadow: 2px 2px 5px olive;
+}
+
+.drop-downs {
+  margin-bottom: 40px;
+}
+
+select {
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: yellowgreen;
+  background-color: #404040;
+}
+
+.creature-display {
+  margin-left: 40px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  text-align: center;
+}
+
+.creatures {
+  width: 300px;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+
 img {
-  height: 250px;
+  margin-top: 15px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+h3 {
+  color: yellowgreen;
+}
+
+.d-text {
+  margin-left: 50px;
+  width: 200px;
+  color: white;
+}
+
+.h-text {
+  color: white;
 }
